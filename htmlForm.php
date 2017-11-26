@@ -2,7 +2,7 @@
 
 class htmlForm{
     
-    
+    /*to create table*/
     public static function createTable($recordSet)
     {
         $htmltable = '<table border="1">';
@@ -26,7 +26,7 @@ class htmlForm{
        return $htmltable;
     }
 
-
+/*to create table for one entry*/
     public static function createTableforOneEntry($recordSet){
         $tableGen = '<table border="1"><tr>';
         $tableGen .= '<tr>';
@@ -40,7 +40,7 @@ class htmlForm{
         $tableGen .= '</tr></table><hr>';
         return $tableGen;
     }
-
+/*html code*/
     public static function displayHTML($text)
     {
         $html = "";
