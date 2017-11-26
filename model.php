@@ -1,4 +1,6 @@
 <?php
+/*in this all the sql queries are defined as funtion*/
+/*it is generic will run for both accounts and todo table*/
 abstract class model {
      protected $tableName;
     public function save()
